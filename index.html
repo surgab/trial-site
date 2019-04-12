@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Discover Europe?</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet"> 
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+        
+    <!-- Load Leaflet CSS -->
+    <link href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" rel="stylesheet">
+    
+    <!-- Load Leaflet and Carto libraries -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://libs.cartocdn.com/carto.js/v4.1.11/carto.min.js"></script>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <p>
+      <img width="49%" height="49%" frameborder="10" src="https://cdn.glitch.com/2acf0d44-9e8a-4f4a-9acf-5a2c8b0931b5%2Fberlin.jpg?1550758386859">
+      <img width="49%" height="49%" frameborder="10" src="https://cdn.glitch.com/2acf0d44-9e8a-4f4a-9acf-5a2c8b0931b5%2Fberlin-germany-1.jpg?1550758388821">
+    </p>
+    <span class="title1">Discover Berlin!</span>
+    <p>
+      <ul>
+        <li>
+          <span>Stay only for 1 or 2 nights because that is <em>totally enough</em> to understand a city and the few million people who live there.
+          </span>
+        </li>
+        <li>
+          <span>Crank up rents for locals by <em>always</em> using Airbnb instead of hostels or couchsurfing!
+          </span>
+        </li>
+        <li>
+          <span>All here on <strong>one page</strong>!
+          </span>
+        </li>
+      </ul>
+    </p>
+    <p>
+      <div class="buttons">
+        <button class="mitte-button">
+          show Mitte
+        </button>
+        <button class="neukoelln-button">
+          show Neukoelln
+        </button>
+      </div>
+      <div id="map"></div>
+    </p>
+    <span class="title1">Alternatives</span>
+    <ul>
+      <li>
+        <span>Book a <a href="https://www.hostelworld.com/" target="_blank">hostel</a>!
+        </span>
+      </li>
+      <li>
+        <span>Or try <a href="https://www.couchsurfing.com/" target="_blank">couchsurfing</a>!
+        </span>
+      </li>
+    </ul>
+    <div class="footnote">
+      Made with magic and <a href="https://glitch.com" target="_blank">Glitch</a>!
+    </div>
+  </body>
+</html>

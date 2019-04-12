@@ -1,0 +1,38 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+ul {
+  list-style-type: square;  
+}
+ul > li {
+  color: #EE4D5A
+}
+ul > li > span {
+color: gray
+}
+
+.title1 {
+  font-family: 'Bungee Shade', cursive;
+  color: #1785fb;
+  font-size: 50px
+}
+
+.footnote {
+  font-size: 10px;
+  text-align: right
+}
+
+#map {
+  height: 80vh;
+  width: 99%;
+}
+.buttons {
+  position: absolute;
+  right: 60px;
+  top: 660px;
+  z-index: 20000;
+}
